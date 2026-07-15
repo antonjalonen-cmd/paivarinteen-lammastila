@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="fi" data-lang="fi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Päivärinteen Lammastila – Suomenlampaan kasvattaja Sumiaisissa</title>
+<meta name="description" content="Päivärinteen lammastila Sumiaisissa kasvattaa suomenlampaita. Karitsanlihaa tilauksesta, lankoja, taljoja ja maisemanhoitopalveluja.">
+<meta property="og:title" content="Päivärinteen Lammastila">
+<meta property="og:description" content="Suomenlampaan kasvattaja Keski-Suomessa. Karitsanlihaa, lankoja ja taljoja suoramyyntinä.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- NAVIGATION -->
+<nav id="main-nav">
+  <div class="nav-inner">
+    <a href="#" class="nav-logo" aria-label="Päivärinteen Lammastila">
+      <img src="images/logo.jpg" alt="Päivärinteen Lammastila" class="nav-logo-img" onerror="this.style.display='none';this.nextElementSibling.style.display='block'">
+      <span class="nav-logo-text" style="display:none">Päivärinteen<br>Lammastila</span>
+    </a>
+    <div class="nav-links">
+      <a href="#tuotteet" class="i18n-inline">
+        <span class="lang-fi">Tuotteet</span>
+        <span class="lang-sv">Produkter</span>
+        <span class="lang-en">Products</span>
+      </a>
+      <a href="#tarina" class="i18n-inline">
+        <span class="lang-fi">Tarina</span>
+        <span class="lang-sv">Berättelse</span>
+        <span class="lang-en">Story</span>
+      </a>
+      <a href="#yhteystiedot" class="i18n-inline">
+        <span class="lang-fi">Yhteystiedot</span>
+        <span class="lang-sv">Kontakt</span>
+        <span class="lang-en">Contact</span>
+      </a>
+    </div>
+    <div class="nav-right">
+      <div class="lang-switcher">
+        <button class="lang-btn active" data-lang="fi">FI</button>
+        <button class="lang-btn" data-lang="sv">SV</button>
+        <button class="lang-btn" data-lang="en">EN</button>
+      </div>
+      <button class="hamburger" aria-label="Valikko" aria-expanded="false">
+        <span></span><span></span>
+      </button>
+    </div>
+  </div>
+  <!-- Mobile menu -->
+  <div class="mobile-menu" id="mobile-menu" aria-hidden="true">
+    <a href="#tuotteet" class="mobile-link i18n-inline" onclick="closeMobileMenu()">
+      <span class="lang-fi">Tuotteet</span>
+      <span class="lang-sv">Produkter</span>
+      <span class="lang-en">Products</span>
+    </a>
+    <a href="#tarina" class="mobile-link i18n-inline" onclick="closeMobileMenu()">
+      <span class="lang-fi">Tarina</span>
+      <span class="lang-sv">Berättelse</span>
+      <span class="lang-en">Story</span>
+    </a>
+    <a href="#yhteystiedot" class="mobile-link i18n-inline" onclick="closeMobileMenu()">
+      <span class="lang-fi">Yhteystiedot</span>
+      <span class="lang-sv">Kontakt</span>
+      <span class="lang-en">Contact</span>
+    </a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero" id="hero">
+  <div class="hero-inner">
+    <div class="hero-text">
+      <p class="hero-eyebrow i18n-inline">
+        <span class="lang-fi">Sumiainen, Keski-Suomi</span>
+        <span class="lang-sv">Sumiainen, Mellersta Finland</span>
+        <span class="lang-en">Sumiainen, Central Finland</span>
+      </p>
+      <h1 class="hero-title">
+        <span class="hero-title-line1">Päivä&shy;rinteen</span>
+        <span class="hero-title-line2 i18n-inline">
+          <span class="lang-fi">Lammastila</span>
+          <span class="lang-sv">Fårfarm</span>
+          <span class="lang-en">Sheep Farm</span>
+        </span>
+      </h1>
+      <p class="hero-sub i18n-inline">
+        <span class="lang-fi">Suomenlampaan kasvattajia Keski-Suomessa. Karitsanlihaa, lankoja ja taljoja suoramyyntinä.</span>
+        <span class="lang-sv">Uppfödare av finsk lantras i Mellersta Finland. Lammkött, garn och skinn till försäljning direkt från gården.</span>
+        <span class="lang-en">Finnish landrace breeders in Central Finland. Lamb meat, yarn and hides available for direct purchase.</span>
+      </p>
+      <a href="#yhteystiedot" class="hero-cta i18n-inline">
+        <span class="lang-fi">Tee tilaus</span>
+        <span class="lang-sv">Beställ</span>
+        <span class="lang-en">Place an order</span>
+      </a>
+    </div>
+    <div class="hero-photo">
+      <div class="ph hero-ph" style="aspect-ratio:3/4">
+        <img src="images/hero.jpg" alt="Suomenlampaita Päivärinteen lammastilalla" class="ph-img" onerror="this.style.display='none'">
+        <div class="ph-placeholder">
+          <span class="ph-icon">🐑</span>
+          <span class="ph-tag i18n-inline">
+            <span class="lang-fi">Kuva tulossa</span>
+            <span class="lang-sv">Bild tillkommer</span>
+            <span class="lang-en">Photo coming</span>
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="hero-rule"></div>
+</section>
+
+<!-- TUOTTEET -->
+<section class="section-tuotteet" id="tuotteet">
+  <div class="section-inner">
+    <div class="section-header">
+      <p class="section-num">01</p>
+      <h2 class="section-title i18n-inline">
+        <span class="lang-fi">Tuotteet</span>
+        <span class="lang-sv">Produkter</span>
+        <span class="lang-en">Products</span>
+      </h2>
+    </div>
+    <div class="products-list">
+      <div class="product-item reveal">
+        <div class="product-label i18n-inline">
+          <span class="lang-fi">Karitsanliha</span>
+          <span class="lang-sv">Lammkött</span>
+          <span class="lang-en">Lamb Meat</span>
+        </div>
+        <div class="product-desc i18n-inline">
+          <span class="lang-fi">Tuoretta ja pakastettua karitsanlihaa tilauksesta. Kokonaiset ja puolikkaat ruhot, irtolihaa saatavissa erikseen.</span>
+          <span class="lang-sv">Färskt och fryst lammkött på beställning. Hela och halva slaktkroppar samt styckningsdetaljer.</span>
+          <span class="lang-en">Fresh and frozen lamb by order. Whole and half carcasses, individual cuts available.</span>
+        </div>
+        <div class="product-tag i18n-inline">
+          <span class="lang-fi">Tilauksesta</span>
+          <span class="lang-sv">På beställning</span>
+          <span class="lang-en">By order</span>
+        </div>
+      </div>
+      <div class="product-rule"></div>
+      <div class="product-item reveal">
+        <div class="product-label i18n-inline">
+          <span class="lang-fi">Jalosteet</span>
+          <span class="lang-sv">Charkuterier</span>
+          <span class="lang-en">Processed Meats</span>
+        </div>
+        <div class="product-desc i18n-inline">
+          <span class="lang-fi">Lammasmakkarat, grillimakkarat ja lihassäilykkeet. Perinteisiä makuja suomenlampaan parhaasta osasta.</span>
+          <span class="lang-sv">Lammkorv, grillkorv och köttkonserver. Traditionella smaker från det finska lantrasets bästa.</span>
+          <span class="lang-en">Lamb sausages, grilling sausages and preserves. Traditional flavours from the finest Finnish landrace.</span>
+        </div>
+        <div class="product-tag i18n-inline">
+          <span class="lang-fi">Sesongin mukaan</span>
+          <span class="lang-sv">Enligt säsong</span>
+          <span class="lang-en">Seasonal</span>
+        </div>
+      </div>
+      <div class="product-rule"></div>
+      <div class="product-item reveal">
+        <div class="product-label i18n-inline">
+          <span class="lang-fi">Villalangat &amp; taljat</span>
+          <span class="lang-sv">Ullgarn &amp; skinn</span>
+          <span class="lang-en">Wool Yarn &amp; Hides</span>
+        </div>
+        <div class="product-desc i18n-inline">
+          <span class="lang-fi">Suomenlampaan pehmeää villaa langaksi kehrättynä ja luonnonvärisissä sävyissä. Ainutlaatuisia lampaantaljoja kodin koristeeksi.</span>
+          <span class="lang-sv">Mjuk finsk lantrasfiberull spunnen till garn i naturliga färger. Unika fårskinn för hemmet.</span>
+          <span class="lang-en">Soft Finnish landrace wool spun into yarn in natural hues. Unique sheepskins for home decoration.</span>
+        </div>
+        <div class="product-tag i18n-inline">
+          <span class="lang-fi">Saatavilla</span>
+          <span class="lang-sv">Tillgänglig</span>
+          <span class="lang-en">Available</span>
+        </div>
+      </div>
+      <div class="product-rule"></div>
+      <div class="product-item reveal">
+        <div class="product-label i18n-inline">
+          <span class="lang-fi">Maisemanhoito</span>
+          <span class="lang-sv">Landskapsvård</span>
+          <span class="lang-en">Landscape Maintenance</span>
+        </div>
+        <div class="product-desc i18n-inline">
+          <span class="lang-fi">Kesälampaat pitävät umpeenkasvavat niityt, peltoalueet ja rannat siistinä luonnollisella tavalla. Kysy kesälammaspalvelusta.</span>
+          <span class="lang-sv">Sommarbetande får håller igenvuxna ängar, fält och stränder välskötta på ett naturligt sätt.</span>
+          <span class="lang-en">Grazing sheep keep overgrown meadows, fields and shores tidy in a completely natural way. Ask about our summer grazing service.</span>
+        </div>
+        <div class="product-tag i18n-inline">
+          <span class="lang-fi">Kesäsesonki</span>
+          <span class="lang-sv">Sommarsäsong</span>
+          <span class="lang-en">Summer season</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TARINA -->
+<section class="section-tarina" id="tarina">
+  <div class="section-inner tarina-inner">
+    <div class="tarina-text">
+      <p class="section-num">02</p>
+      <h2 class="section-title i18n-inline">
+        <span class="lang-fi">Tarina</span>
+        <span class="lang-sv">Vår berättelse</span>
+        <span class="lang-en">Our Story</span>
+      </h2>
+      <div class="tarina-body">
+        <p class="i18n-inline">
+          <span class="lang-fi">Päivärinteen lammastila sijaitsee Keski-Suomessa Sumiaisissa, Viitamäentien varrella. Milla ja Sami hoitavat noin kaksi sataa suomenlampaasta koostuvaa lauma-aan rauhallisessa maalaismaisemassa.</span>
+          <span class="lang-sv">Päivärinteen lammastila ligger i Sumiainen i Mellersta Finland längs Viitamäentie. Milla och Sami sköter en hjord på ungefär tvåhundra finsk lantras i ett fridfullt lantlig landskap.</span>
+          <span class="lang-en">Päivärinteen lammastila is located in Sumiainen, Central Finland, along Viitamäentie. Milla and Sami tend a flock of around two hundred Finnish landrace sheep in a peaceful rural landscape.</span>
+        </p>
+        <p class="i18n-inline">
+          <span class="lang-fi">Suomenlammas on vanha pohjoinen alkuperäisrotu, joka sopii erinomaisesti Keski-Suomen luonnonolosuhteisiin. Arkojen ja uteliaiden luonteensa ansiosta lampaiden kanssa tehdään työtä arvostuksella ja kiireettömästi.</span>
+          <span class="lang-sv">Finsk lantras är en gammal nordlig ursprungsras som passar utmärkt för Mellersta Finlands naturförhållanden. Tack vare deras varsamma och nyfikna natur sköts fåren med respekt och utan brådska.</span>
+          <span class="lang-en">The Finnish landrace is an old northern heritage breed ideally suited to Central Finland's natural conditions. Thanks to their gentle, curious nature, the sheep are cared for with respect and at an unhurried pace.</span>
+        </p>
+        <p class="i18n-inline">
+          <span class="lang-fi">Tilalla myydään karitsanlihaa suoramyyntinä tilauksesta, sekä ainutlaatuisia villalankoja ja taljoja suomenlampaan luonnonväreissä. Kesäkaudella lampaat hoitavat lähialueen niittyjä ja rantoja luonnollisella laidunnuksella.</span>
+          <span class="lang-sv">Gården säljer lammkött direkt på beställning, samt unika ullgarner och skinn i det finska lantrasets naturliga färger. Under sommarsäsongen betar fåren ängar och stränder i trakten.</span>
+          <span class="lang-en">The farm sells lamb meat directly on order, along with unique wool yarns and hides in the natural colours of the Finnish landrace. During summer, the sheep graze meadows and shores in the surrounding area.</span>
+        </p>
+      </div>
+    </div>
+    <div class="tarina-photo">
+      <div class="ph tarina-ph" style="aspect-ratio:2/3">
+        <img src="images/tarina.jpg" alt="Milla ja Sami Päivärinteen lammastilalla" class="ph-img" onerror="this.style.display='none'">
+        <div class="ph-placeholder">
+          <span class="ph-icon">🌿</span>
+          <span class="ph-tag i18n-inline">
+            <span class="lang-fi">Kuva tulossa</span>
+            <span class="lang-sv">Bild tillkommer</span>
+            <span class="lang-en">Photo coming</span>
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- LAMMASVUOSI — SIGNATURE COMPONENT -->
+<section class="section-kalenteri" id="kalenteri">
+  <div class="section-inner">
+    <div class="section-header">
+      <p class="section-num">03</p>
+      <h2 class="section-title i18n-inline">
+        <span class="lang-fi">Lammasvuosi</span>
+        <span class="lang-sv">Fårets år</span>
+        <span class="lang-en">The Sheep's Year</span>
+      </h2>
+      <p class="kalenteri-lead i18n-inline">
+        <span class="lang-fi">Tilalla elämä seuraa luonnon omaa rytmiä. Kahdentoista kuukauden kalenterimme kertoo, mitä vuosikierto tarkoittaa suomenlampaan laumassa.</span>
+        <span class="lang-sv">På gården följer livet naturens egna rytm. Vår tolv månaders kalender berättar vad årets växlingar innebär för hjorden av finsk lantras.</span>
+        <span class="lang-en">At the farm, life follows nature's own rhythm. Our twelve-month calendar shows what the annual cycle means for a flock of Finnish landrace sheep.</span>
+      </p>
+    </div>
+    <div class="kalenteri-grid">
+      <div class="kal-item reveal">
+        <span class="kal-num">01</span>
+        <span class="kal-month i18n-inline"><span class="lang-fi">Tammikuu</span><span class="lang-sv">Januari</span><span class="lang-en">January</span></span>
+        <span class="kal-desc i18n-inline"><span class="lang-fi">Talvitalli. Lampaat sisätiloissa, rehuttaminen ja päivittäinen tarkkailu.</span><span class="lang-sv">Vinterstall. Fåren inomhus, utfodring och daglig tillsyn.</span><span class="lang-en">Winter housing. Sheep indoors, daily feeding and monitoring.</span></span>
+      </div>
+      <div class="kal-item reveal">
+        <span class="kal-num">02</span>
+        <span class="kal-month i18n-inline"><span class="lang-fi">Helmikuu</span><span class="lang-sv">Februari</span><span class="lang-en">February</span></span>
+        <span class="kal-desc i18n-inline"><span class="lang-fi">Tiineystarkkailu. Ensimmäiset karitsat syntyvät talven loppupuolella.</span><span class="lang-sv">Dräktighetskontroll. De första lammen föds i slutet av vintern.</span><span class="lang-en">Pregnancy check. First lambs are born toward the end of winter.</span></span>
+      </div>
+      <div class="kal-item reveal">
+        <span class="kal-num">03</span>
+        <span class="kal-month i18n-inline"><span class="lang-fi">Maaliskuu</span><span class="lang-sv">Mars</span><span class="lang-en">March</span></span>
+        <span class="kal-desc i18n-inline"><span class="lang-fi">Karitsointi. Kiireisin aika tilalla — lampaita syntyy viikko viikolta.</span><span class="lang-sv">Lammningssäsong. Gårdens livligaste tid — lamm föds vecka för vecka.</span><span class="lang-en">Lambing season. The farm's busiest time as lambs are born week by week.</span></span>
+      </div>
+      <div class="kal-item reveal">
+        <span class="kal-num">04</span>
+        <span class="kal-month i18n-inline"><span class="lang-fi">Huhtikuu</span><span class="lang-sv">April</span><span class="lang-en">April</span></span>
+        <span class="kal-desc i18n-inline"><span class="lang-fi">Karitsointi jatkuu. Uuhet imettävät. Lumi sulaa, ensimmäiset ulkoiluhet.</span><span class="lang-sv">Lammning pågår. Tackor diar. Snön smälter, de första utevistelserna.</span><span class="lang-en">Lambing continues. Ewes nurse. Snow melts, first outdoor moments.</span></span>
+      </div>
+      <div class="kal-item reveal">
+        <span class="kal-num">05</span>
+        <span class="kal-month i18n-inline"><span class="lang-fi">Toukokuu</span><span class="lang-sv">Maj</span><span class="lang-en">May</span></span>
+        <span class="kal-desc i18n-inline"><span class="lang-fi">Keritys. Lampaille laidunkauden alku — lauma siirtyy ulos.</span><span class="lang-sv">Klippning. Fåren börjar betessäsongen och hjorden går ut.</span><span class="lang-en">Shearing. The beginning of grazing season as the flock moves outdoors.</span></span>
+      </div>
+      <div class="kal-item reveal">
+        <span class="kal-num">06</span>
+        <span class="kal-month i18n-inline"><span class="lang-fi">Kesäkuu</span><span class="lang-sv">Juni</span><span class="lang-en">June</span></span>
+        <span class="kal-desc i18n-inline"><span class="lang-fi">Täysi laidunkausi. Lampaat niityillä ja rannoilla. Maisemanhoitopalvelu alkaa.</span><span class="lang-sv">Full betessäsong. Fåren på ängar och stränder. Landskapsvård startar.</span><span class="lang-en">Full grazing season. Sheep on meadows and shores. Landscape service begins.</span></span>
+      </div>
+      <div class="kal-item reveal">
+        <span class="kal-num">07</span>
+        <span class="kal-month i18n-inline"><span class="lang-fi">Heinäkuu</span><span class="lang-sv">Juli</span><span class="lang-en">July</span></span>
+        <span class="kal-desc i18n-inline"><span class="lang-fi">Lauma laiduntaa. Heinänkorjuu talven rehua varten.</span><span class="lang-sv">Hjorden betar. Höbärgning för vinterfodret.</span><span class="lang-en">Flock grazing. Hay harvest for winter feed.</span></span>
+      </div>
+      <div class="kal-item reveal">
+        <span class="kal-num">08</span>
+        <span class="kal-month i18n-inline"><span class="lang-fi">Elokuu</span><span class="lang-sv">Augusti</span><span class="lang-en">August</span></span>
+        <span class="kal-desc i18n-inline"><span class="lang-fi">Karitsat kasvavat. Ensimmäinen lihantoimitus asiakkaille.</span><span class="lang-sv">Lammen växer. Första leveransen av kött till kunderna.</span><span class="lang-en">Lambs growing. First meat deliveries to customers.</span></span>
+      </div>
+      <div class="kal-item reveal">
+        <span class="kal-num">09</span>
+        <span class="kal-month i18n-inline"><span class="lang-fi">Syyskuu</span><span class="lang-sv">September</span><span class="lang-en">September</span></span>
+        <span class="kal-desc i18n-inline"><span class="lang-fi">Pässit laumaan. Syyskaritsointi alkaa, uudet karitsat syntyvät.</span><span class="lang-sv">Baggar till hjorden. Höstlammning börjar, nya lamm föds.</span><span class="lang-en">Rams join the flock. Autumn lambing begins, new lambs born.</span></span>
+      </div>
+      <div class="kal-item reveal">
+        <span class="kal-num">10</span>
+        <span class="kal-month i18n-inline"><span class="lang-fi">Lokakuu</span><span class="lang-sv">Oktober</span><span class="lang-en">October</span></span>
+        <span class="kal-desc i18n-inline"><span class="lang-fi">Laidunkausi päättyy. Lampaat siirtyvät sisätiloihin talveksi.</span><span class="lang-sv">Betessäsongen avslutas. Fåren flyttar inomhus för vintern.</span><span class="lang-en">Grazing season ends. Sheep move indoors for winter.</span></span>
+      </div>
+      <div class="kal-item reveal">
+        <span class="kal-num">11</span>
+        <span class="kal-month i18n-inline"><span class="lang-fi">Marraskuu</span><span class="lang-sv">November</span><span class="lang-en">November</span></span>
+        <span class="kal-desc i18n-inline"><span class="lang-fi">Teurastusaika. Karitsat teurastetaan, lihanmyynti alkaa laajemmin.</span><span class="lang-sv">Slakttid. Lamm slaktas, köttförsäljningen startar på bred front.</span><span class="lang-en">Slaughter season. Lambs processed, broader meat sales begin.</span></span>
+      </div>
+      <div class="kal-item reveal">
+        <span class="kal-num">12</span>
+        <span class="kal-month i18n-inline"><span class="lang-fi">Joulukuu</span><span class="lang-sv">December</span><span class="lang-en">December</span></span>
+        <span class="kal-desc i18n-inline"><span class="lang-fi">Talvilepo. Tilalla hiljaisempi aika — lauma kerää voimia uutta vuotta varten.</span><span class="lang-sv">Vintervila. En lugnare tid på gården — hjorden samlar krafter inför det nya året.</span><span class="lang-en">Winter rest. A quieter time at the farm as the flock builds strength for the new year.</span></span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- GALLERIA -->
+<section class="section-galleria" id="galleria">
+  <div class="section-inner">
+    <div class="section-header">
+      <p class="section-num">04</p>
+      <h2 class="section-title i18n-inline">
+        <span class="lang-fi">Galleria</span>
+        <span class="lang-sv">Galleri</span>
+        <span class="lang-en">Gallery</span>
+      </h2>
+    </div>
+    <div class="gallery-grid">
+      <div class="gallery-item ph large reveal">
+        <img src="images/gallery1.jpg" alt="Suomenlampaita laitumella" class="ph-img" onerror="this.style.display='none'">
+        <div class="ph-placeholder"><span class="ph-icon">🐑</span></div>
+      </div>
+      <div class="gallery-item ph medium reveal">
+        <img src="images/gallery2.jpg" alt="Karitsa lähikuva" class="ph-img" onerror="this.style.display='none'">
+        <div class="ph-placeholder"><span class="ph-icon">🌾</span></div>
+      </div>
+      <div class="gallery-item ph medium reveal">
+        <img src="images/gallery3.jpg" alt="Tilan maisema Sumiaisissa" class="ph-img" onerror="this.style.display='none'">
+        <div class="ph-placeholder"><span class="ph-icon">🏡</span></div>
+      </div>
+      <div class="gallery-item ph small reveal">
+        <img src="images/gallery4.jpg" alt="Villalankoja" class="ph-img" onerror="this.style.display='none'">
+        <div class="ph-placeholder"><span class="ph-icon">🧶</span></div>
+      </div>
+      <div class="gallery-item ph small reveal">
+        <img src="images/gallery5.jpg" alt="Taljoja" class="ph-img" onerror="this.style.display='none'">
+        <div class="ph-placeholder"><span class="ph-icon">🪣</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- YHTEYSTIEDOT -->
+<section class="section-contact" id="yhteystiedot">
+  <div class="section-inner contact-inner">
+    <div class="contact-left">
+      <p class="section-num">05</p>
+      <h2 class="section-title i18n-inline">
+        <span class="lang-fi">Yhteystiedot</span>
+        <span class="lang-sv">Kontakt</span>
+        <span class="lang-en">Contact</span>
+      </h2>
+      <div class="contact-block">
+        <p class="contact-label i18n-inline">
+          <span class="lang-fi">Osoite</span>
+          <span class="lang-sv">Adress</span>
+          <span class="lang-en">Address</span>
+        </p>
+        <p class="contact-value">Viitamäentie 159<br>44280 Sumiainen<br>Keski-Suomi</p>
+      </div>
+      <div class="contact-block">
+        <p class="contact-label i18n-inline">
+          <span class="lang-fi">Puhelin</span>
+          <span class="lang-sv">Telefon</span>
+          <span class="lang-en">Phone</span>
+        </p>
+        <p class="contact-value">
+          Milla — <a href="tel:+358504604195">050 460 4195</a><br>
+          Sami — <a href="tel:+358504614223">050 461 8223</a>
+        </p>
+      </div>
+      <div class="contact-block">
+        <p class="contact-label">Facebook</p>
+        <p class="contact-value"><a href="https://www.facebook.com/paivarinteenlammastila" target="_blank" rel="noopener">Päivärinteen lammastila</a></p>
+      </div>
+    </div>
+    <div class="contact-right">
+      <div class="contact-card">
+        <h3 class="contact-card-title i18n-inline">
+          <span class="lang-fi">Tilaa tuotteet</span>
+          <span class="lang-sv">Beställ produkter</span>
+          <span class="lang-en">Order products</span>
+        </h3>
+        <p class="contact-card-body i18n-inline">
+          <span class="lang-fi">Karitsanliha, jalosteet, langat ja taljat myydään tilauksesta. Ota yhteyttä puhelimitse tai Facebookin kautta niin sovitaan toimitustavasta.</span>
+          <span class="lang-sv">Lammkött, charkuterier, garn och skinn säljs på beställning. Kontakta oss per telefon eller via Facebook för att komma överens om leverans.</span>
+          <span class="lang-en">Lamb, processed meats, yarn and hides are sold by order. Contact us by phone or via Facebook to arrange delivery.</span>
+        </p>
+        <p class="contact-card-body i18n-inline">
+          <span class="lang-fi">Maisemanhoitopalvelusta ja kesälampaista kysy Millalta tai Samilta suoraan.</span>
+          <span class="lang-sv">För frågor om landskapsvård och sommarbete, kontakta Milla eller Sami direkt.</span>
+          <span class="lang-en">For landscape maintenance and summer grazing services, contact Milla or Sami directly.</span>
+        </p>
+        <a href="https://www.facebook.com/paivarinteenlammastila" target="_blank" rel="noopener" class="contact-fb-btn">
+          <span class="i18n-inline">
+            <span class="lang-fi">Viesti Facebookissa</span>
+            <span class="lang-sv">Meddelande på Facebook</span>
+            <span class="lang-en">Message on Facebook</span>
+          </span>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-logo">
+      <img src="images/logo.jpg" alt="Päivärinteen Lammastila" class="footer-logo-img" onerror="this.style.display='none'">
+      <span class="footer-name">Päivärinteen Lammastila</span>
+    </div>
+    <div class="footer-meta">
+      <p class="i18n-inline">
+        <span class="lang-fi">Viitamäentie 159 · 44280 Sumiainen · Keski-Suomi</span>
+        <span class="lang-sv">Viitamäentie 159 · 44280 Sumiainen · Mellersta Finland</span>
+        <span class="lang-en">Viitamäentie 159 · 44280 Sumiainen · Central Finland</span>
+      </p>
+    </div>
+    <div class="footer-demo">
+      <p class="i18n-inline">
+        <span class="lang-fi">Demo — suunniteltu Anton Jalosen toimesta</span>
+        <span class="lang-sv">Demo — designad av Anton Jalonen</span>
+        <span class="lang-en">Demo — designed by Anton Jalonen</span>
+      </p>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
